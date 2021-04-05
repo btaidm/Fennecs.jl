@@ -1,0 +1,13 @@
+name = "Fennecs"
+uuid = "50114fbe-7718-4640-949f-dfec309fc2f1"
+authors = ["Tim Bradt (tim.bradt@bradt.dev)"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
